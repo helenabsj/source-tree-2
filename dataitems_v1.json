@@ -1,0 +1,35 @@
+
+
+        {
+  
+            "data": [
+                {
+                    "id": 5732,
+                    "name": "Milk Production",
+                    "unit": "Pounds (Lbs)",
+                    "description": "Total pounds of milk produced.  Excludes milk sucked by cows.", 
+                    "aggregationType": "Total sum",
+                    "source": "Survey"
+                },
+                {
+                    "id":5973,
+                    "name": "Milk Cows",
+                    "unit": "Heads of cattle",
+                    "description": "Heads of milk producing cattle. Includes dry cow excludes heifers not yet fresh.",
+                    "aggregationType": "Total sum",
+                    "source": "Survey"
+                },
+                {
+                    "id":5733,
+                    "name": "Milk per Cow",
+                    "unit": "Pounds (Lbs)",
+                    "description": "Total pounds of milk produced divided by number of milk producing cows. Excludes milk sucked by calves.",
+                    "aggregationType": "Average",
+                    "source": "Survey"
+                }
+            ],
+            "total": 20,
+            "offset": 0,
+            "limit": 100,
+            "size": 10
+        }
